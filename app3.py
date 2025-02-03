@@ -1,0 +1,50 @@
+import streamlit as st
+
+
+def app():
+    st.title("All 42 stocks name list")
+    st.text('''
+    ASIANPAINT.NS,
+    AXISBANK.NS,
+    BAJFINANCE.NS,
+    BAJAJFINSV.NS,
+    BHARTIARTL.NS,
+    BPCL.NS,
+    BRITANNIA.NS,
+    CIPLA.NS,
+    DIVISLAB.NS,
+    DRREDDY.NS,
+    EICHERMOT.NS,
+    GRASIM.NS,
+    HCLTECH.NS,
+    HDFCBANK.NS,
+    HEROMOTOCO.NS,
+    HINDALCO.NS,
+    HINDUNILVR.NS,
+    ICICIBANK.NS,
+    INDUSINDBK.NS,
+    INFY.NS,
+    IOC.NS,
+    ITC.NS,
+    JSWSTEEL.NS,
+    KOTAKBANK.NS,
+    LT.NS,
+    M&M.NS,
+    MARUTI.NS,
+    NTPC.NS,
+    ONGC.NS,
+    RELIANCE.NS,
+    SBIN.NS,
+    SHREECEM.NS,
+    SUNPHARMA.NS,
+    TATAMOTORS.NS,
+    TATASTEEL.NS,
+    TCS.NS,
+    TATACONSUM.NS,
+    TECHM.NS,
+    TITAN.NS,
+    ULTRACEMCO.NS,
+    UPL.NS,
+    WIPRO.NS''')
+    st.subheader("Why these 42 stocks only ?")
+    st.text("These all stocks are part of NIFY50 stocks which are available from the year 2009")
